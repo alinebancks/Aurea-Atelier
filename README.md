@@ -34,13 +34,31 @@ Plataforma de e-commerce com foco em fluxos de checkout, segurança de dados e a
 ## ⚙️ Configuração do Projeto
 
 ### 1. Backend (Python)
+
 ```bash
 # Navegue até a pasta da API
 cd backend
+
 # Crie e ative o ambiente virtual
 python -m venv venv
 .\venv\Scripts\activate
+
 # Instale as dependências
 pip install -r requirements.txt
+
 # Inicie o servidor
 uvicorn main:app --reload
+```
+
+### 2. Frontend (Web)
+
+```bash
+# Navegue até a pasta web
+cd frontend
+
+# Instale as dependências
+npm install
+
+# Inicie a aplicação
+npm run dev
+```
